@@ -1,0 +1,77 @@
+.dash-name {
+  font-weight: bold;
+}
+.dashboard-inner {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  padding: 0 50px;
+}
+
+.add-transaction {
+  padding: 10px 20px;
+  font-weight: bold;
+  background-color: rgba(193, 5, 5, 0.914);
+  color: rgb(240, 240, 240);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.add-transaction:hover {
+  background-color: rgba(193, 5, 5, 0.8);
+  transition: background-color 0.3s ease;
+}
+.add-transaction:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(193, 5, 5, 0.914);
+}
+
+/* Inside content vlaue */
+
+.balance-card {
+  background-color: hsla(0, 8%, 95%, 0.847);
+  border-radius: 10px;
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+.balance-card p {
+  padding-top: 30px;
+  padding-left: 20px;
+}
+.balance-card h1 {
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.summary-card {
+  display: flex;
+  margin-top: 25px;
+  margin-left: 32px;
+}
+.income-card {
+  width: 47%;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 5px 5px 15px 10px hsla(0, 0%, 0%, 0.2);
+  border-radius: 10px;
+  text-align: center;
+  padding: 30px 40px;
+  margin-right: 50px;
+}
+.income-card p {
+  margin-bottom: 20px;
+}
+
+.expense-card {
+  width: 47%;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 5px 5px 15px 10px hsla(0, 0%, 0%, 0.2);
+  border-radius: 10px;
+  text-align: center;
+  padding: 30px 40px;
+}
+
+.expense-card p {
+  margin-bottom: 20px;
+}
